@@ -4,8 +4,8 @@ local plugins = {
     opts = {
       ensure_installed = {
         -- defaults
-        "vim",
         "lua",
+        "bash",
         "python",
         "css",
         "json",

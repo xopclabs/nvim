@@ -6,18 +6,6 @@ local ui = {
     overriden_modules = nil,
   },
 
-  tabufline = {
-    lazyload = true,
-    overriden_modules = function()
-      local tabufline = require "nvchad_ui.tabufline"
-      return {
-        buttons = function()
-          return ""
-        end,
-      }
-    end,
-  },
-
   nvdash = {
     load_on_startup = true,
     header = {
